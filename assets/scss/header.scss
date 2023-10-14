@@ -1,15 +1,37 @@
-header section {
-  justify-content: space-between;
-  align-items: center;
-}
+header {
 
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  //section
+  section {
+    justify-content: space-between;
+    align-items: center;
+  }
 
-header nav ul li a {
-  margin: 0 15px;
-  color: $color-primaria;
+  //end section
+
+  //nav
+  nav {
+
+    //ul
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      //li
+      li {
+        a {
+          margin: 0 15px;
+          color: $color-primaria;
+        }
+
+        //end a
+      }
+
+      //end li
+    }
+
+    //end ul
+  }
+
+  //end nav
 }
